@@ -2,7 +2,6 @@ package com.ballistic;
 
 import java.io.File;
 import java.io.FileNotFoundException;
-import java.io.IOException;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.NoSuchElementException;
@@ -13,7 +12,7 @@ import java.util.Scanner;
  */
 public class ReadWriteFile {
 
-    private String filePath = "file/text.txt";
+    private String filePath = "src/file/text.txt";
     private Scanner input;
     private List<String> lines;
 
@@ -34,20 +33,18 @@ public class ReadWriteFile {
 
     public List<String> readFile(){
         try {
-            while (this.input.hasNext()){
-                this.lines.add(this.input.nextLine());
-            }
+            while (this.input.hasNext()){ this.lines.add(this.input.nextLine()); }
         }catch (NoSuchElementException e) {
             System.out.println("Element not found Related Object");
             System.exit(1);
         }
+        this.closeFile();
+
         return this.lines;
     }
 
     public void closeFile(){
-        if(input != null){
-            input.close(); // close file
-        }
+        if(input != null){ input.close(); }
     }
 
 }

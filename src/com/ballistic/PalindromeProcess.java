@@ -13,18 +13,24 @@ public class PalindromeProcess {
     // checking the palindrome
     public Boolean isPalindrome(String message) {
         // we first check string palindrome or not
-        if(message.equals(StringUtils.reverse(message))){
-            return true;
-            // else do process for further try to match
-        }else {
-            String[] reverseList = StringUtils.split(StringUtils.reverse(message));
-            return false;
+        int index = 0;
+        char messageChar[] = message.toCharArray();
+        char reverseChar[] = StringUtils.reverse(message).toCharArray();
+        List<Character> palindromeChar = new ArrayList<Character>();
+        Stack<Character> specialChar = new Stack<Character>();
+
+        for(int reversIndex = 0; reversIndex < reverseChar.length; reversIndex++){
+            System.out.println(reverseChar[reversIndex] + " " + messageChar[reversIndex]);
         }
+        System.out.println();
+
+        return false;
     }
 
 
     // count the total line ----> ok
     public Integer countLines(List<String> lines){ return lines.size(); }
+
     // count total word in whole file ----> ok
     public Integer getTotalWords(List<String> lines) {
         final Integer[] totalWords = {0};
@@ -116,6 +122,5 @@ public class PalindromeProcess {
 
         return totalSpace[0];
     }
-
 
 }
