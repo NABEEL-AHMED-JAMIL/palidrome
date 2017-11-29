@@ -13,18 +13,44 @@ public class PalindromeProcess {
     // checking the palindrome
     public Boolean isPalindrome(String message) {
         // we first check string palindrome or not
-        int index = 0;
-        char messageChar[] = message.toCharArray();
-        char reverseChar[] = StringUtils.reverse(message).toCharArray();
-        List<Character> palindromeChar = new ArrayList<Character>();
-        Stack<Character> specialChar = new Stack<Character>();
+        if(StringUtils.reverse(message).equals(message)){
+            return true;
+        }else{
+            // check in deep
+            char realMessageChar[] = message.toCharArray();
+            char reverseMessageChar[] = StringUtils.reverse(message).toCharArray();
 
-        for(int reversIndex = 0; reversIndex < reverseChar.length; reversIndex++){
-            System.out.println(reverseChar[reversIndex] + " " + messageChar[reversIndex]);
+            List<Character> palindromeMessageChar = new ArrayList<Character>();
+            Stack<Character> specialChar = new Stack<Character>();
+
+            // realMessageIndex
+            for(int realMessageIndex = 0; realMessageIndex < realMessageChar.length; realMessageIndex++){
+                for(int reverseMessageIndex = 0; reverseMessageIndex < reverseMessageChar.length; reverseMessageIndex++){
+                    // this case like 'a' == 'a' then enter
+                    if(realMessageChar[realMessageIndex] == reverseMessageChar[reverseMessageIndex]){
+                        // add the message into the palindromeMessageChar
+                        palindromeMessageChar.add(reverseMessageChar[reverseMessageIndex]);
+                        realMessageIndex++;
+                    // this case like 'A' convert to 'a' == 'a' Or 'a' != 'b' either 'B' convert then enter and check 'reverseMessageChar[reverseMessageIndex]'
+                     // are special character or not 'true' ---> false and 'false' -----> 'true'
+                    }else if((Character.toLowerCase(realMessageChar[realMessageIndex]) == Character.toLowerCase(reverseMessageChar[reverseMessageIndex])
+                            || Character.toLowerCase(realMessageChar[realMessageIndex]) != Character.toLowerCase(reverseMessageChar[reverseMessageIndex]))
+                            && (Character.isAlphabetic(reverseMessageChar[reverseMessageIndex]))) {
+
+                        // this case like if 'letter are upper case' then 'put the upper case letter' other wise 'put lower case letter'
+                        palindromeMessageChar.add(Character.isUpperCase(realMessageChar[realMessageIndex]) == true ?
+                                Character.toUpperCase(reverseMessageChar[reverseMessageIndex]) :
+                                Character.toLowerCase(reverseMessageChar[reverseMessageIndex]));
+                        realMessageIndex++;
+
+                    }else {
+                        System.out.println("Pakistan zindabad");
+                    }
+                }
+            }
+            return false;
+
         }
-        System.out.println();
-
-        return false;
     }
 
 

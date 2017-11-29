@@ -2,13 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e3183fad-bed9-44ff-bc32-b4afa4e07143" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/palindrome/com/ballistic/Main.class" afterPath="$PROJECT_DIR$/out/production/palindrome/com/ballistic/Main.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/palindrome/com/ballistic/PalindromeProcess.class" afterPath="$PROJECT_DIR$/out/production/palindrome/com/ballistic/PalindromeProcess.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/palindrome/com/ballistic/ReadWriteFile.class" afterPath="$PROJECT_DIR$/out/production/palindrome/com/ballistic/ReadWriteFile.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/ballistic/Main.java" afterPath="$PROJECT_DIR$/src/com/ballistic/Main.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/ballistic/PalindromeProcess.java" afterPath="$PROJECT_DIR$/src/com/ballistic/PalindromeProcess.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/ballistic/ReadWriteFile.java" afterPath="$PROJECT_DIR$/src/com/ballistic/ReadWriteFile.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/file/text.txt" afterPath="$PROJECT_DIR$/src/file/text.txt" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -30,8 +26,8 @@
       <file leaf-file-name="Main.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/ballistic/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="11" column="39" lean-forward="false" selection-start-line="11" selection-start-column="39" selection-end-line="11" selection-end-column="39" />
+            <state relative-caret-position="238">
+              <caret line="14" column="0" lean-forward="false" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -40,37 +36,15 @@
       <file leaf-file-name="PalindromeProcess.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/ballistic/PalindromeProcess.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="289">
-              <caret line="17" column="40" lean-forward="false" selection-start-line="17" selection-start-column="29" selection-end-line="17" selection-end-column="40" />
+            <state relative-caret-position="203">
+              <caret line="32" column="14" lean-forward="false" selection-start-line="32" selection-start-column="14" selection-end-line="32" selection-end-column="14" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#546#557#0" expanded="true" />
-                <element signature="e#609#620#0" expanded="true" />
-                <element signature="method#getTotalWords#0;class#PalindromeProcess#0" expanded="false" />
-                <element signature="method#getTotalChar#0;class#PalindromeProcess#0" expanded="false" />
-                <element signature="e#1535#1555#0" expanded="true" />
-                <element signature="method#getCharPerLine#0;class#PalindromeProcess#0" expanded="false" />
-                <element signature="e#2039#2059#0" expanded="true" />
-                <element signature="method#getTotalVowel#0;class#PalindromeProcess#0" expanded="false" />
-                <element signature="e#2593#2613#0" expanded="true" />
-                <element signature="method#putVowel#0;class#PalindromeProcess#0" expanded="false" />
-                <element signature="method#getSpacePerLine#0;class#PalindromeProcess#0" expanded="false" />
-                <element signature="method#getTotalSpace#0;class#PalindromeProcess#0" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ReadWriteFile.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/ballistic/ReadWriteFile.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="51">
-              <caret line="3" column="37" lean-forward="false" selection-start-line="3" selection-start-column="37" selection-end-line="3" selection-end-column="37" />
-              <folding>
-                <element signature="e#414#415#0" expanded="true" />
-                <element signature="e#466#467#0" expanded="true" />
-                <element signature="e#1160#1161#0" expanded="true" />
-                <element signature="e#1210#1211#0" expanded="true" />
+                <element signature="e#681#692#0" expanded="true" />
+                <element signature="e#748#759#0" expanded="true" />
+                <element signature="e#3412#3432#0" expanded="true" />
+                <element signature="e#3916#3936#0" expanded="true" />
+                <element signature="e#4470#4490#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -105,9 +79,9 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/file/text.txt" />
-        <option value="$PROJECT_DIR$/src/com/ballistic/Main.java" />
         <option value="$PROJECT_DIR$/src/com/ballistic/ReadWriteFile.java" />
+        <option value="$PROJECT_DIR$/src/com/ballistic/Main.java" />
+        <option value="$PROJECT_DIR$/src/file/text.txt" />
         <option value="$PROJECT_DIR$/src/com/ballistic/PalindromeProcess.java" />
       </list>
     </option>
@@ -166,6 +140,28 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="file" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="palindrome" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="palindrome" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ballistic" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -753,12 +749,12 @@
       <workItem from="1511877991399" duration="1580000" />
       <workItem from="1511882195694" duration="4524000" />
       <workItem from="1511935951548" duration="515000" />
-      <workItem from="1511950481972" duration="542000" />
+      <workItem from="1511950481972" duration="14005000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="27560000" />
+    <option name="totallyTimeSpent" value="41023000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -770,38 +766,38 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="754" extended-state="7" />
+    <frame x="-8" y="-8" width="1382" height="754" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32850242" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Nl-Palette" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32850242" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2705314" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.0" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32850242" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32850242" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.27231467" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.27231467" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3993559" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.42351046" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32850242" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
     <layout-to-restore>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -819,17 +815,17 @@
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3993559" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.42351046" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32850242" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32850242" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2705314" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.0" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32850242" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32850242" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2647504" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.27231467" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -843,7 +839,7 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="9" />
+      <option name="time" value="12" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -866,18 +862,11 @@
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#546#557#0" expanded="true" />
-            <element signature="e#609#620#0" expanded="true" />
-            <element signature="method#getTotalWords#0;class#PalindromeProcess#0" expanded="false" />
-            <element signature="method#getTotalChar#0;class#PalindromeProcess#0" expanded="false" />
-            <element signature="e#1535#1555#0" expanded="true" />
-            <element signature="method#getCharPerLine#0;class#PalindromeProcess#0" expanded="false" />
-            <element signature="e#2039#2059#0" expanded="true" />
-            <element signature="method#getTotalVowel#0;class#PalindromeProcess#0" expanded="false" />
-            <element signature="e#2593#2613#0" expanded="true" />
-            <element signature="method#putVowel#0;class#PalindromeProcess#0" expanded="false" />
-            <element signature="method#getSpacePerLine#0;class#PalindromeProcess#0" expanded="false" />
-            <element signature="method#getTotalSpace#0;class#PalindromeProcess#0" expanded="false" />
+            <element signature="e#681#692#0" expanded="true" />
+            <element signature="e#748#759#0" expanded="true" />
+            <element signature="e#3412#3432#0" expanded="true" />
+            <element signature="e#3916#3936#0" expanded="true" />
+            <element signature="e#4470#4490#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -886,12 +875,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="51">
           <caret line="3" column="37" lean-forward="false" selection-start-line="3" selection-start-column="37" selection-end-line="3" selection-end-column="37" />
-          <folding>
-            <element signature="e#414#415#0" expanded="true" />
-            <element signature="e#466#467#0" expanded="true" />
-            <element signature="e#1160#1161#0" expanded="true" />
-            <element signature="e#1210#1211#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -909,18 +893,11 @@
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#546#557#0" expanded="true" />
-            <element signature="e#609#620#0" expanded="true" />
-            <element signature="method#getTotalWords#0;class#PalindromeProcess#0" expanded="false" />
-            <element signature="method#getTotalChar#0;class#PalindromeProcess#0" expanded="false" />
-            <element signature="e#1535#1555#0" expanded="true" />
-            <element signature="method#getCharPerLine#0;class#PalindromeProcess#0" expanded="false" />
-            <element signature="e#2039#2059#0" expanded="true" />
-            <element signature="method#getTotalVowel#0;class#PalindromeProcess#0" expanded="false" />
-            <element signature="e#2593#2613#0" expanded="true" />
-            <element signature="method#putVowel#0;class#PalindromeProcess#0" expanded="false" />
-            <element signature="method#getSpacePerLine#0;class#PalindromeProcess#0" expanded="false" />
-            <element signature="method#getTotalSpace#0;class#PalindromeProcess#0" expanded="false" />
+            <element signature="e#681#692#0" expanded="true" />
+            <element signature="e#748#759#0" expanded="true" />
+            <element signature="e#3412#3432#0" expanded="true" />
+            <element signature="e#3916#3936#0" expanded="true" />
+            <element signature="e#4470#4490#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -929,12 +906,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="51">
           <caret line="3" column="37" lean-forward="false" selection-start-line="3" selection-start-column="37" selection-end-line="3" selection-end-column="37" />
-          <folding>
-            <element signature="e#414#415#0" expanded="true" />
-            <element signature="e#466#467#0" expanded="true" />
-            <element signature="e#1160#1161#0" expanded="true" />
-            <element signature="e#1210#1211#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -952,18 +924,11 @@
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#546#557#0" expanded="true" />
-            <element signature="e#609#620#0" expanded="true" />
-            <element signature="method#getTotalWords#0;class#PalindromeProcess#0" expanded="false" />
-            <element signature="method#getTotalChar#0;class#PalindromeProcess#0" expanded="false" />
-            <element signature="e#1535#1555#0" expanded="true" />
-            <element signature="method#getCharPerLine#0;class#PalindromeProcess#0" expanded="false" />
-            <element signature="e#2039#2059#0" expanded="true" />
-            <element signature="method#getTotalVowel#0;class#PalindromeProcess#0" expanded="false" />
-            <element signature="e#2593#2613#0" expanded="true" />
-            <element signature="method#putVowel#0;class#PalindromeProcess#0" expanded="false" />
-            <element signature="method#getSpacePerLine#0;class#PalindromeProcess#0" expanded="false" />
-            <element signature="method#getTotalSpace#0;class#PalindromeProcess#0" expanded="false" />
+            <element signature="e#681#692#0" expanded="true" />
+            <element signature="e#748#759#0" expanded="true" />
+            <element signature="e#3412#3432#0" expanded="true" />
+            <element signature="e#3916#3936#0" expanded="true" />
+            <element signature="e#4470#4490#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -972,12 +937,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="646">
           <caret line="46" column="20" lean-forward="false" selection-start-line="46" selection-start-column="20" selection-end-line="46" selection-end-column="20" />
-          <folding>
-            <element signature="e#414#415#0" expanded="true" />
-            <element signature="e#466#467#0" expanded="true" />
-            <element signature="e#1160#1161#0" expanded="true" />
-            <element signature="e#1210#1211#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -987,18 +947,11 @@
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#546#557#0" expanded="true" />
-            <element signature="e#609#620#0" expanded="true" />
-            <element signature="method#getTotalWords#0;class#PalindromeProcess#0" expanded="false" />
-            <element signature="method#getTotalChar#0;class#PalindromeProcess#0" expanded="false" />
-            <element signature="e#1535#1555#0" expanded="true" />
-            <element signature="method#getCharPerLine#0;class#PalindromeProcess#0" expanded="false" />
-            <element signature="e#2039#2059#0" expanded="true" />
-            <element signature="method#getTotalVowel#0;class#PalindromeProcess#0" expanded="false" />
-            <element signature="e#2593#2613#0" expanded="true" />
-            <element signature="method#putVowel#0;class#PalindromeProcess#0" expanded="false" />
-            <element signature="method#getSpacePerLine#0;class#PalindromeProcess#0" expanded="false" />
-            <element signature="method#getTotalSpace#0;class#PalindromeProcess#0" expanded="false" />
+            <element signature="e#681#692#0" expanded="true" />
+            <element signature="e#748#759#0" expanded="true" />
+            <element signature="e#3412#3432#0" expanded="true" />
+            <element signature="e#3916#3936#0" expanded="true" />
+            <element signature="e#4470#4490#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1007,12 +960,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="782">
           <caret line="46" column="20" lean-forward="false" selection-start-line="46" selection-start-column="20" selection-end-line="46" selection-end-column="20" />
-          <folding>
-            <element signature="e#414#415#0" expanded="true" />
-            <element signature="e#466#467#0" expanded="true" />
-            <element signature="e#1160#1161#0" expanded="true" />
-            <element signature="e#1210#1211#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1022,18 +970,11 @@
           <caret line="20" column="0" lean-forward="false" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#546#557#0" expanded="true" />
-            <element signature="e#609#620#0" expanded="true" />
-            <element signature="method#getTotalWords#0;class#PalindromeProcess#0" expanded="false" />
-            <element signature="method#getTotalChar#0;class#PalindromeProcess#0" expanded="false" />
-            <element signature="e#1535#1555#0" expanded="true" />
-            <element signature="method#getCharPerLine#0;class#PalindromeProcess#0" expanded="false" />
-            <element signature="e#2039#2059#0" expanded="true" />
-            <element signature="method#getTotalVowel#0;class#PalindromeProcess#0" expanded="false" />
-            <element signature="e#2593#2613#0" expanded="true" />
-            <element signature="method#putVowel#0;class#PalindromeProcess#0" expanded="false" />
-            <element signature="method#getSpacePerLine#0;class#PalindromeProcess#0" expanded="false" />
-            <element signature="method#getTotalSpace#0;class#PalindromeProcess#0" expanded="false" />
+            <element signature="e#681#692#0" expanded="true" />
+            <element signature="e#748#759#0" expanded="true" />
+            <element signature="e#3412#3432#0" expanded="true" />
+            <element signature="e#3916#3936#0" expanded="true" />
+            <element signature="e#4470#4490#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1055,12 +996,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
           <caret line="5" column="26" lean-forward="false" selection-start-line="5" selection-start-column="26" selection-end-line="5" selection-end-column="26" />
-          <folding>
-            <element signature="e#414#415#0" expanded="true" />
-            <element signature="e#466#467#0" expanded="true" />
-            <element signature="e#1160#1161#0" expanded="true" />
-            <element signature="e#1210#1211#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1070,18 +1006,11 @@
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#546#557#0" expanded="true" />
-            <element signature="e#609#620#0" expanded="true" />
-            <element signature="method#getTotalWords#0;class#PalindromeProcess#0" expanded="false" />
-            <element signature="method#getTotalChar#0;class#PalindromeProcess#0" expanded="false" />
-            <element signature="e#1535#1555#0" expanded="true" />
-            <element signature="method#getCharPerLine#0;class#PalindromeProcess#0" expanded="false" />
-            <element signature="e#2039#2059#0" expanded="true" />
-            <element signature="method#getTotalVowel#0;class#PalindromeProcess#0" expanded="false" />
-            <element signature="e#2593#2613#0" expanded="true" />
-            <element signature="method#putVowel#0;class#PalindromeProcess#0" expanded="false" />
-            <element signature="method#getSpacePerLine#0;class#PalindromeProcess#0" expanded="false" />
-            <element signature="method#getTotalSpace#0;class#PalindromeProcess#0" expanded="false" />
+            <element signature="e#681#692#0" expanded="true" />
+            <element signature="e#748#759#0" expanded="true" />
+            <element signature="e#3412#3432#0" expanded="true" />
+            <element signature="e#3916#3936#0" expanded="true" />
+            <element signature="e#4470#4490#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1238,13 +1167,6 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/file/text.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="14" column="8" lean-forward="true" selection-start-line="14" selection-start-column="8" selection-end-line="14" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://C:/Program Files (x86)/Java/jdk1.8.0_91/src.zip!/java/util/function/Consumer.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="142">
@@ -1252,45 +1174,49 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/ballistic/ReadWriteFile.java">
+    <entry file="jar://C:/Program Files (x86)/Java/jdk1.8.0_91/src.zip!/java/util/ArrayList.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="37" lean-forward="false" selection-start-line="3" selection-start-column="37" selection-end-line="3" selection-end-column="37" />
-          <folding>
-            <element signature="e#414#415#0" expanded="true" />
-            <element signature="e#466#467#0" expanded="true" />
-            <element signature="e#1160#1161#0" expanded="true" />
-            <element signature="e#1210#1211#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="305">
+          <caret line="1248" column="0" lean-forward="false" selection-start-line="1248" selection-start-column="0" selection-end-line="1248" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/ballistic/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="39" lean-forward="false" selection-start-line="11" selection-start-column="39" selection-end-line="11" selection-end-column="39" />
+        <state relative-caret-position="238">
+          <caret line="14" column="0" lean-forward="false" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/file/text.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/ballistic/ReadWriteFile.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="37" lean-forward="false" selection-start-line="3" selection-start-column="37" selection-end-line="3" selection-end-column="37" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/ballistic/PalindromeProcess.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="17" column="40" lean-forward="false" selection-start-line="17" selection-start-column="29" selection-end-line="17" selection-end-column="40" />
+        <state relative-caret-position="203">
+          <caret line="32" column="14" lean-forward="false" selection-start-line="32" selection-start-column="14" selection-end-line="32" selection-end-column="14" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#546#557#0" expanded="true" />
-            <element signature="e#609#620#0" expanded="true" />
-            <element signature="method#getTotalWords#0;class#PalindromeProcess#0" expanded="false" />
-            <element signature="method#getTotalChar#0;class#PalindromeProcess#0" expanded="false" />
-            <element signature="e#1535#1555#0" expanded="true" />
-            <element signature="method#getCharPerLine#0;class#PalindromeProcess#0" expanded="false" />
-            <element signature="e#2039#2059#0" expanded="true" />
-            <element signature="method#getTotalVowel#0;class#PalindromeProcess#0" expanded="false" />
-            <element signature="e#2593#2613#0" expanded="true" />
-            <element signature="method#putVowel#0;class#PalindromeProcess#0" expanded="false" />
-            <element signature="method#getSpacePerLine#0;class#PalindromeProcess#0" expanded="false" />
-            <element signature="method#getTotalSpace#0;class#PalindromeProcess#0" expanded="false" />
+            <element signature="e#681#692#0" expanded="true" />
+            <element signature="e#748#759#0" expanded="true" />
+            <element signature="e#3412#3432#0" expanded="true" />
+            <element signature="e#3916#3936#0" expanded="true" />
+            <element signature="e#4470#4490#0" expanded="true" />
           </folding>
         </state>
       </provider>

@@ -12,7 +12,8 @@ public class Main {
         List<String> fileInput = readWriteFile.readFile();
         PalindromeProcess palindromeProcess = new PalindromeProcess();
 
-        fileInput.forEach(line -> System.out.println("Is line Palindrome or Not:- " + palindromeProcess.isPalindrome(line)));
+        fileInput.forEach(line -> System.out.println("Is line Palindrome or Not:- " +
+                (palindromeProcess.isPalindrome(line) == true ? line + " -: are Palindrome." : line + " -: are not Palindrome.")));
 //        System.out.println("Total Number of line in File:- " + palindromeProcess.countLines(fileInput));
 //        System.out.println("Total Nuber of Word in line's of File:- " + palindromeProcess.getTotalWords(fileInput));
 //        fileInput.forEach(line -> System.out.println("Words Per line:- " + palindromeProcess.getWordsPerLine(line)));
