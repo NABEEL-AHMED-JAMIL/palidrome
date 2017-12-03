@@ -4,13 +4,34 @@ import org.apache.commons.lang.StringUtils;
 import java.util.*;
 
 /**
- * Created by Nabeel on 11/27/2017.
+ * @author Nabeel on 11/27/2017.
  */
+/**************************************************************************
+ * @class PalindromeProcess that help to perform operation on {@link String} class
+ *
+ * @method's isPalindrome(String message), countLines(List<String> lines), getWordsPerLine(String line)
+ * @method's getCharPerLine(String line), getTotalVowel(List<String> lines),
+ * putVowel(Map<Character, Integer> totalVowel,Character character)
+ * @method's getSpacePerLine(String line), getTotalSpace(List<String> lines)
+ *
+ *
+ * @variable SPACE that help the {@link @method isPalindrome({@link String message}) }
+ *
+ **************************************************************************/
 public class PalindromeProcess {
 
     public static final String SPACE = " ";
 
-    // checking the palindrome
+
+    /************************************************************************************************
+     * A property group for {@link PalindromeProcess } checking the {@link String } palindrome or not
+     *{@link @method {@link Integer} isPalindrome({@link String message}}
+     *
+     * @param message
+     *
+     * @return {@link Boolean } for {@link PalindromeProcess} configuration
+     *
+     *************************************************************************************************/
     public Boolean isPalindrome(String message) {
         // we first check string palindrome or not
         if(StringUtils.reverse(message).equals(message)){
@@ -54,10 +75,29 @@ public class PalindromeProcess {
     }
 
 
-    // count the total line ----> ok
+    /************************************************************************************************
+     * A property group for {@link PalindromeProcess } checking the {@link List<String> } total Lines in {@link java.io.File }
+     *
+     *{@link @method {@link Integer} countLines({@link List<String> lines}}
+     *
+     *@param lines
+     *
+     * @return {@link Integer } for {@link PalindromeProcess} configuration
+     *
+     *************************************************************************************************/
     public Integer countLines(List<String> lines){ return lines.size(); }
 
-    // count total word in whole file ----> ok
+
+    /************************************************************************************************
+     * A property group for {@link PalindromeProcess } checking the {@link List<String>  } total Words in {@link java.io.File }
+     *
+     *{@link @method {@link Integer} getTotalWords({@link List<String> lines}}
+     *
+     *@param lines
+     *
+     * @return {@link Integer } for {@link PalindromeProcess} configuration
+     *
+     *************************************************************************************************/
     public Integer getTotalWords(List<String> lines) {
         final Integer[] totalWords = {0};
         lines.forEach((line) -> totalWords[0] += getWordsPerLine(line));
@@ -65,10 +105,29 @@ public class PalindromeProcess {
         return totalWords[0];
     }
 
-    // count the word's per line  ----> ok
+    /************************************************************************************************
+     * A property group for {@link PalindromeProcess } checking the {@link String } total Words Per line in {@link String  }
+     *
+     *{@link @method {@link Integer} getWordsPerLine({@link String line}}
+     *
+     *@param line
+     *
+     * @return {@link Integer } for {@link PalindromeProcess} configuration
+     *
+     *************************************************************************************************/
     public Integer getWordsPerLine(String line){ return StringUtils.split(line).length; }
 
-    // count the total char ----> ok
+
+    /************************************************************************************************
+     * A property group for {@link PalindromeProcess } checking the {@link List<String>} total {@link Character} in {@link java.io.File }
+     *
+     *{@link @method {@link Map<Character, Integer>} getTotalChar({@link List<String> lines}}
+     *
+     *@param lines
+     *
+     * @return {@link Map<Character, Integer>} for {@link PalindromeProcess} configuration
+     *
+     *************************************************************************************************/
     public Map<Character, Integer> getTotalChar(List<String> lines) {
         Map<Character, Integer> charAllLine = new HashMap<Character, Integer>();
         lines.forEach(line ->
@@ -79,7 +138,16 @@ public class PalindromeProcess {
         return charAllLine;
     }
 
-    // count the total char per line  ----> ok
+    /************************************************************************************************
+     * A property group for {@link PalindromeProcess } checking the {@link String } total {@link Character} in {@link String  }
+     *
+     *{@link @method {@link Map<Character, Integer>} getCharPerLine({@link String line}}
+     *
+     *@param line
+     *
+     * @return {@link Map<Character, Integer>} for {@link PalindromeProcess} configuration
+     *
+     *************************************************************************************************/
     public Map<Character, Integer> getCharPerLine(String line) {
         Integer increment = 1;
         Map<Character, Integer> charPerLine = new HashMap<Character, Integer>();
@@ -93,7 +161,16 @@ public class PalindromeProcess {
         return charPerLine;
     }
 
-    // count the total vowel( a,e,i,o,u)  ----> ok
+    /************************************************************************************************
+     * A property group for {@link PalindromeProcess } checking the {@link List<String>} total Vowel( a,e,i,o,u)
+     *
+     *{@link @method {@link Map<Character, Integer>} getTotalVowel({@link List<String> lines}}
+     *
+     *@param lines
+     *
+     * @return {@link Map<Character, Integer>} for {@link PalindromeProcess} configuration
+     *
+     *************************************************************************************************/
     public Map<Character, Integer> getTotalVowel(List<String> lines){
         Map<Character, Integer> totalVowel = new HashMap<Character, Integer>();
         for (String line: lines) {
@@ -131,7 +208,16 @@ public class PalindromeProcess {
         totalVowel.put(character, totalVowel.get(character) != null ? totalVowel.get(character) + 1 : 1);
     }
 
-    // count the total space per line ---> ok
+    /************************************************************************************************
+     * A property group for {@link PalindromeProcess } checking the {@link String } total Space Per line in {@link String  }
+     *
+     *{@link @method {@link Integer} getSpacePerLine({@link String line}}
+     *
+     *@param line
+     *
+     * @return {@link Integer } for {@link PalindromeProcess} configuration
+     *
+     *************************************************************************************************/
     public Integer getSpacePerLine(String line) {
         Integer spacePerLine = 0;
         for (Character character: line.toCharArray()){
@@ -141,7 +227,16 @@ public class PalindromeProcess {
         return spacePerLine;
     }
 
-    // count all space in the file ---> ok
+    /************************************************************************************************
+     * A property group for {@link PalindromeProcess } checking the {@link String } total Space in the {@link java.io.File  }
+     *
+     *{@link @method {@link Integer} getTotalSpace({@link List<String> lines}}
+     *
+     *@param lines
+     *
+     * @return {@link Integer } for {@link PalindromeProcess} configuration
+     *
+     *************************************************************************************************/
     public Integer getTotalSpace(List<String> lines) {
         final Integer[] totalSpace = {0};
         lines.forEach(line -> totalSpace[0] += getSpacePerLine(line));
@@ -150,3 +245,5 @@ public class PalindromeProcess {
     }
 
 }
+
+

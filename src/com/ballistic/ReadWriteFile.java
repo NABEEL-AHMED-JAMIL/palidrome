@@ -8,8 +8,16 @@ import java.util.NoSuchElementException;
 import java.util.Scanner;
 
 /**
- * Created by Nabeel on 11/27/2017.
+ * @author  by Nabeel on 11/27/2017.
  */
+/**************************************************************************
+ * @class ReadWriteFile that help us to open and readFile and close file
+ * @method's openFile(), readFile(), closeFile()
+ * @variable filePath help the attribute for access the file
+ * @variable input instance of Scanner class
+ * @variable lines used the instance of list<String> tha store the file info
+ *
+ **************************************************************************/
 public class ReadWriteFile {
 
     private String filePath = "src/file/text.txt";
@@ -20,6 +28,14 @@ public class ReadWriteFile {
         this.lines = new ArrayList<String>();
     }
 
+
+    /****************************************************************
+     * A property group for {@link @method openFile()}
+     *
+     * help the method for open the file if the file not thre error
+     * @exception FileNotFoundException
+     *
+     ****************************************************************/
     public void openFile(){
         try {
             this.input = new Scanner(new File(this.filePath));
@@ -31,6 +47,19 @@ public class ReadWriteFile {
         }
     }
 
+
+    /************************************************************
+     * A property group for {@link @method readFile()}
+     *
+     * help the method read file using
+     * @loop While
+     *
+     * @exception NoSuchElementException thorw if the file empty
+     *
+     * @return {@link @variable lines}
+     *
+     *
+     **************************************************************/
     public List<String> readFile(){
         try {
             while (this.input.hasNext()){ this.lines.add(this.input.nextLine()); }
@@ -43,6 +72,12 @@ public class ReadWriteFile {
         return this.lines;
     }
 
+    /************************************************************
+     * A property group for {@link @method closeFile() }
+     *
+     * help the method close file using {@link @variable input }
+     *
+     **************************************************************/
     public void closeFile(){
         if(input != null){ input.close(); }
     }
