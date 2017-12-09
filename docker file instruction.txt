@@ -1,0 +1,28 @@
+Create the (DockerFile) in side the project
+1)Docker image create method
+	1) From image name that you want to import in the image(openjdk,)
+		From openjdk:8
+	2) ADD this is used to add the jar
+		ADD target/docker-spring-boot.jar docker-spring-boot.jar
+	3 Expose mean this container run on the port so we used as
+		Expose 8085
+	4)Run command "Enterypont" tell the docker to run this jar
+		ENTERYPOINT ["java", "-jar", "docker-spring-boot.jar"]
+---------------------------------------------------------------------
+Know before we start to deploy the images on the container we need to now docker install or not
+1) docker -v (show the current version of docker)
+2) deploy a jar into image so we need to build image(these image run on any mac)
+	docker build -f DockerFile -t docker-spring-boot.jar .
+3) check the image create or not 
+	docker images
+4) run the images
+	docker run -p 8085:8085 docker-spring-boot(this is the image name)
+5) stop container
+	ctrl-c (it stop the container)
+
+--------------------------------------------------------------------
+FROM openjdk:8
+EXPOSE 8085
+ADD /target/token_test-0.0.1-SNAPSHOT.jar token_test-0.0.1-SNAPSHOT.jar
+ENTRYPOINT ["java","-jar","token_test-0.0.1-SNAPSHOT.jar"]
+--------------------------------------------------------------------
