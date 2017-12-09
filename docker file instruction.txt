@@ -18,7 +18,7 @@ Create the (DockerFile) in side the project
 Know before we start to deploy the images on the container we need to now docker install or not
 1) docker -v (show the current version of docker)
 2) deploy a jar into image so we need to build image(these image run on any mac)
-	docker build -f DockerFile -t docker-spring-boot.jar .
+	docker build -f DockerFile -t docker-spring-boot .
 3) check the image create or not 
 	docker images
 4) run the images
