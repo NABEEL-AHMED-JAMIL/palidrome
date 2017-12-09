@@ -1,3 +1,8 @@
+Docker is a software which provides centralized platform to execute your application.
+It wraps software components into a complete standardized unit which contains everything require to run.
+Whether it is code, runtime environment, tools or libraries.
+It guarantees that the software will always run as expected.
+------------------------------------------------------------------
 Create the (DockerFile) in side the project
 1)Docker image create method
 	1) From image name that you want to import in the image(openjdk,)
