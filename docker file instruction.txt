@@ -1,3 +1,4 @@
+Docker run on line so we need to install the docker tool for window
 Docker is a software which provides centralized platform to execute your application.(https://www.youtube.com/watch?v=lcQfQRDAMpQ)
 It wraps software components into a complete standardized unit which contains everything require to run.
 Whether it is code, runtime environment, tools or libraries.
