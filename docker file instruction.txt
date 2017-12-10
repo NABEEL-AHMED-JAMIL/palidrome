@@ -25,7 +25,9 @@ Know before we start to deploy the images on the container we need to now docker
 	docker run -p 8085:8085 docker-spring-boot(this is the image name)
 5) stop container
 	ctrl-c (it stop the container)
-
+6) ping Ip address my Ip address are (192.168.99.100) on your computer console
+7) after that open your brower and add the following line "http://192.168.99.100:8085/" this "8085" my port which run my application
+8) Thanks and Bey
 --------------------------------------------------------------------
 FROM openjdk:8
 EXPOSE 8085
