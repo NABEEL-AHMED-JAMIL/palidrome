@@ -37,6 +37,7 @@ If you want to remove all docker containers. You can use simply following comman
 The first command will stop all running docker containers and the second command will delete them.
 	1) Stop All Containers # docker stop $(docker ps -a -q)
 	2) Remove All Containers # docker rm $(docker ps -a -q)
+	3) Remove All images from docker # Delete all images docker rmi $(docker images -q)
 --------------------------------------------------------------------
 FROM openjdk:8
 EXPOSE 8085
