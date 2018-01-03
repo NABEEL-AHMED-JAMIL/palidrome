@@ -35,5 +35,5 @@ public class Main {
         System.out.println("Total Number of Space in line's of File:- " + palindromeProcess.getTotalSpace(fileInput));
 
     }
-
 }
+

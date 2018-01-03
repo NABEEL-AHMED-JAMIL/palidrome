@@ -22,7 +22,6 @@ public class PalindromeProcess {
 
     public static final String SPACE = " ";
 
-
     /************************************************************************************************
      * A property group for {@link PalindromeProcess } checking the {@link String } palindrome or not
      *{@link @method {@link Integer} isPalindrome({@link String message}}
@@ -33,6 +32,7 @@ public class PalindromeProcess {
      *
      *************************************************************************************************/
     public Boolean isPalindrome(String message) {
+
         // we first check string palindrome or not
         if(StringUtils.reverse(message).equals(message)){
             return true;
@@ -41,27 +41,53 @@ public class PalindromeProcess {
             char realMessageChar[] = message.toCharArray();
             char reverseMessageChar[] = StringUtils.reverse(message).toCharArray();
 
+            for ( int i = 0; i < realMessageChar.length; i++) {
+                System.out.print("----");
+            }
+            System.out.println();
+            for ( Character c: realMessageChar) {
+                System.out.print("| "+ c +" ");
+            }
+            System.out.println("|");
+            for ( int i = 0; i < realMessageChar.length; i++) {
+                System.out.print("----");
+            }
+            System.out.println();
+            System.out.println();
+
+
+            for ( int i = 0; i < reverseMessageChar.length; i++) {
+                System.out.print("----");
+            }
+            System.out.println();
+            for ( Character c: reverseMessageChar) {
+                System.out.print("| "+ c +" ");
+            }
+            System.out.println("|");
+            for ( int i = 0; i < reverseMessageChar.length; i++) {
+                System.out.print("----");
+            }
+            System.out.println();
+
             List<Character> palindromeMessageChar = new ArrayList<Character>();
             Stack<Character> specialChar = new Stack<Character>();
 
             // realMessageIndex
             for(int realMessageIndex = 0; realMessageIndex < realMessageChar.length; realMessageIndex++){
                 for(int reverseMessageIndex = 0; reverseMessageIndex < reverseMessageChar.length; reverseMessageIndex++){
-                    // this case like 'a' == 'a' then enter
+                    // this case like 'a' == 'a' and either '"'  == '"' then enter
                     if(realMessageChar[realMessageIndex] == reverseMessageChar[reverseMessageIndex]){
                         // add the message into the palindromeMessageChar
                         palindromeMessageChar.add(reverseMessageChar[reverseMessageIndex]);
                         realMessageIndex++;
-                    // this case like 'A' convert to 'a' == 'a' Or 'a' != 'b' either 'B' convert then enter and check 'reverseMessageChar[reverseMessageIndex]'
-                     // are special character or not 'true' ---> false and 'false' -----> 'true'
-                    }else if((Character.toLowerCase(realMessageChar[realMessageIndex]) == Character.toLowerCase(reverseMessageChar[reverseMessageIndex])
-                            || Character.toLowerCase(realMessageChar[realMessageIndex]) != Character.toLowerCase(reverseMessageChar[reverseMessageIndex]))
-                            && (Character.isAlphabetic(reverseMessageChar[reverseMessageIndex]))) {
+                        // check both are character or not
+                    }else if(Character.isAlphabetic(realMessageChar[realMessageIndex]) && Character.isAlphabetic(reverseMessageChar[reverseMessageIndex])) {
 
                         // this case like if 'letter are upper case' then 'put the upper case letter' other wise 'put lower case letter'
-                        palindromeMessageChar.add(Character.isUpperCase(realMessageChar[realMessageIndex]) == true ?
-                                Character.toUpperCase(reverseMessageChar[reverseMessageIndex]) :
-                                Character.toLowerCase(reverseMessageChar[reverseMessageIndex]));
+                        palindromeMessageChar.add(
+                                Character.isUpperCase(realMessageChar[realMessageIndex]) == true
+                                        ? Character.toUpperCase(reverseMessageChar[reverseMessageIndex])
+                                        : Character.toLowerCase(reverseMessageChar[reverseMessageIndex]));
                         realMessageIndex++;
 
                     }else {
@@ -132,8 +158,7 @@ public class PalindromeProcess {
         Map<Character, Integer> charAllLine = new HashMap<Character, Integer>();
         lines.forEach(line ->
             getCharPerLine(line).forEach((character, integer) ->
-                charAllLine.put(character, charAllLine.get(character) != null ?
-                   charAllLine.get(character)+ integer : integer)));
+                charAllLine.put(character, charAllLine.get(character) != null ? charAllLine.get(character) + integer : integer)));
 
         return charAllLine;
     }
@@ -176,24 +201,9 @@ public class PalindromeProcess {
         for (String line: lines) {
             for (Character character: line.toCharArray()) {
                 switch (character){
-                    case 'a':
-                    case 'A':
-                        putVowel(totalVowel, character);
-                        break;
-                    case 'e':
-                    case 'E':
-                        putVowel(totalVowel, character);
-                        break;
-                    case 'i':
-                    case 'I':
-                        putVowel(totalVowel, character);
-                        break;
-                    case 'o':
-                    case 'O':
-                        putVowel(totalVowel, character);
-                        break;
-                    case 'u':
-                    case 'U':
+                    case 'a': case 'A': case 'e': case 'E':
+                    case 'i': case 'I': case 'o': case 'O':
+                    case 'u': case 'U':
                         putVowel(totalVowel, character);
                         break;
                 }
@@ -204,7 +214,7 @@ public class PalindromeProcess {
     }
 
     // put vowel ----> ok
-    public void putVowel(Map<Character, Integer> totalVowel,Character character){
+    private void putVowel(Map<Character, Integer> totalVowel,Character character){
         totalVowel.put(character, totalVowel.get(character) != null ? totalVowel.get(character) + 1 : 1);
     }
 
