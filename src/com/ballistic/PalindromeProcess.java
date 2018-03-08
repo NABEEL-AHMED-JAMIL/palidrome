@@ -2,6 +2,7 @@ package com.ballistic;
 
 import org.apache.commons.lang.StringUtils;
 import java.util.*;
+import java.util.stream.Stream;
 
 /**
  * @author Nabeel on 11/27/2017.
@@ -36,38 +37,10 @@ public class PalindromeProcess {
         // we first check string palindrome or not
         if(StringUtils.reverse(message).equals(message)){
             return true;
-        }else{
+        }else {
             // check in deep
             char realMessageChar[] = message.toCharArray();
             char reverseMessageChar[] = StringUtils.reverse(message).toCharArray();
-
-            for ( int i = 0; i < realMessageChar.length; i++) {
-                System.out.print("----");
-            }
-            System.out.println();
-            for ( Character c: realMessageChar) {
-                System.out.print("| "+ c +" ");
-            }
-            System.out.println("|");
-            for ( int i = 0; i < realMessageChar.length; i++) {
-                System.out.print("----");
-            }
-            System.out.println();
-            System.out.println();
-
-
-            for ( int i = 0; i < reverseMessageChar.length; i++) {
-                System.out.print("----");
-            }
-            System.out.println();
-            for ( Character c: reverseMessageChar) {
-                System.out.print("| "+ c +" ");
-            }
-            System.out.println("|");
-            for ( int i = 0; i < reverseMessageChar.length; i++) {
-                System.out.print("----");
-            }
-            System.out.println();
 
             List<Character> palindromeMessageChar = new ArrayList<Character>();
             Stack<Character> specialChar = new Stack<Character>();
@@ -96,7 +69,6 @@ public class PalindromeProcess {
                 }
             }
             return false;
-
         }
     }
 
@@ -253,6 +225,7 @@ public class PalindromeProcess {
 
         return totalSpace[0];
     }
+
 
 }
 
